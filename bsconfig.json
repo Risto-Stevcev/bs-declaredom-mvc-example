@@ -1,0 +1,27 @@
+{
+  "name": "bs-declaredom-mvc-example",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag-basics",
+    "@ristostevcev/bs-callbag-element",
+    "@ristostevcev/bs-callbag-events",
+    "@ristostevcev/bs-callbag-of",
+    "@ristostevcev/bs-callbag-store",
+    "@ristostevcev/bs-declaredom",
+    "bs-webapi"
+  ],
+  "warnings": {
+    "error" : "+101+25+8+9+27"
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}
